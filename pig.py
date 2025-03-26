@@ -56,8 +56,7 @@ while max(player_scores) < max_score:
                                                        # jogar mais de um turno; se isso não for feito, o score do jogador
                                                        # no turno passado seria substituido pelo novo score, ou seja, se ele 
                                                        # tinha 6 no primeiro turno, finalizou o turno, e no segundo turno 
-                                                       # ficou com mais 5, o score final será 11; se o valor fosse apenas
-                                                       # substituido(com o =), o score final seria 5.
+                                                       # ficou com mais 5, o score final será 5, o qual deveria ser 11.
                     
         print("\nSeu escore final é: ", player_scores[player_idx])
 
