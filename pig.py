@@ -37,7 +37,7 @@ while max(player_scores) < max_score:
         
         while True:
             should_row = input("\nQuer rolar um dado (s)? ")
-            if should_row.lower() != "s":               #.lower() retorna a string com todos as letras em minusculo                                      
+            if should_row.lower() != "s":                                                    
                 break 
             
             value = roll()
